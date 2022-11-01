@@ -208,7 +208,10 @@ place-items: center;
    
 }
 .bambo-img{
-    background-image: url("../assets/bamboo-cap.png");
+    background-image: url("https://s3-alpha-sig.figma.com/img/c1e5/e740/99e1e2726f758b45089960242daf7bfc?Expires=1668384000&Signature=hRylXbljEeT3HmZewRrLF3H42avbLAIJoDQK0lZMEdy71MTbLi0rgb0~50cykXJ2WBoIKHXeS2pN7ek5~gUTIWNoAaALucmeiFJpMopxtd8hLHmttROfiY9aazf3oUxTscpXWkGym6oJgJQwkrMpoDmMt4g0~kFOLzEn~vhoEHwGOdBMo9DAcwhGI9Zq7bmrLIkJ28cG2QP8G4XNDsUaQTMcHnNbuH1bRqRixpF9yuVTFTdN1MS8pBwY~geZzn6slDXqc3e58Qifr3QKcaSzoHkG6EiCqHaeUaNmHECNVu6U2NHq0B2M2GpM4DxWGX7pN6Z7VmNrCzhKK5kjnVIhfg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bambo-info{
    display: flex;
@@ -223,7 +226,9 @@ place-items: center;
   ;
     padding: auto;
 }
+.text-part{
 
+}
 .heading-part h2{
 
 height: 116px;
@@ -277,7 +282,7 @@ color: #333B41
         position: absolute;
 width: 293px;
 height: 605px;
-left: 1305px;
+left: 1350px;
 top: 792px;
 
 
@@ -376,17 +381,18 @@ color: #FFFFFF;
  }
  .palm{
     position: absolute;
-    height: 378px;
-    left: -1px;
+    height: 438px;
+    left: -390px;
+    transform: rotate(5deg);
 top: 2300px;
 }
 
 .strel{
     position: absolute;
     height: 278px;
-    
-   left: 1229px;
-   top: 2400px;
+    transform: rotateY(180deg);
+   right: -45px;
+top: 2400px;
 }
 .left-button,.right-button{
     position: absolute;
@@ -650,6 +656,9 @@ height: 25.08px;
     
     color: #333B41;
 }
+.testimonial .test-box{
+
+}
 .testimonial .test-box:first-child{
   background-image: url('../assets/testimonials.png');
 }
@@ -686,10 +695,10 @@ transform: rotate(30deg);
 .leav{
     position: absolute;
     width: 300.92px;
-height: 395.45px;
-top: 4400px;
-left: 1300px;
-transform: matrix(-0.86, -0.5, -0.5, 0.86, 0, 0)rotateY(180deg) rotate(-30deg);
+height: 365.45px;
+top: 4399px;
+right: -98px;
+transform: rotateY(140deg);
 }
 .slide{
     width: 599px;
@@ -768,7 +777,7 @@ background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-emphasis-color: transparent;
+text-fill-color: transparent;
 transition: all 0.3s;
 }
 
@@ -822,7 +831,9 @@ color: #4B9200;
     flex-direction: column;
     justify-content: space-between;
 }
+.designed-footer{
 
+}
 .designed-footer >p{
     
 font-family: 'Roboto';
