@@ -323,39 +323,39 @@ gap:10px;
         cursor: pointer;
     }
     .first-part div:last-child{
-        background-image: url('/docs/foto-card3.png');
+        background-image: url('../docs/foto-card3.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:first-child{
-        background-image: url('/docs/foto-card1.png');
+        background-image: url('../docs/foto-card1.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:nth-child(2){
-        background-image: url('/docs/foto-card2.png');
+        background-image: url('../docs/foto-card2.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:last-child{
-        background-image: url('/docs/foto-card3.png');
+        background-image: url('../docs/foto-card3.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
 
     /* ////////////// */
     .second-part div:first-child{
-        background-image: url('/docs/foto-card5.png');
+        background-image: url('../docs/foto-card5.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .second-part div:nth-child(2){
-        background-image: url('/docs/foto-card6.png');
+        background-image: url('../docs/foto-card6.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .second-part div:last-child{
-        background-image: url('/docs/foto-card7.png');
+        background-image: url('../docs/foto-card7.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -554,15 +554,15 @@ align-items: center;
 }
 
 .first-box .donate-img{
-    background-image: url('/docs/pay.png');
+    background-image: url('../docs/pay.png');
   
   
 }
 .second-box .donate-img{
-    background-image: url('/docs/zoo.png');
+    background-image: url('../docs/zoo.png');
 }
 .third-box .donate-img{
-    background-image: url('/docs/monkey.png');
+    background-image: url('../docs/monkey.png');
 }
 .donate-method{
    margin-top: 4px;
@@ -654,16 +654,16 @@ height: 25.08px;
     color: #333B41;
 }
 .testimonial .test-box:first-child{
-  background-image: url('/docs/testimonials.png');
+  background-image: url('../docs/testimonials.png');
 }
 .testimonial .test-box:nth-child(2){
-    background-image: url('/docs/testimonials (1).png')
+    background-image: url('../docs/testimonials (1).png')
 }
 .testimonial .test-box:nth-child(3){
-    background-image: url('/docs/testimonials (2).png');
+    background-image: url('../docs/testimonials (2).png');
 }
 .testimonial .test-box:last-child{
-    background-image: url('/docs/testimonials (3).png');
+    background-image: url('../docs/testimonials (3).png');
 }
 .test-container button{
     transition: all 0.3s;
