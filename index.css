@@ -128,7 +128,7 @@ height: 700px;
     width:100%;
     height: 100%;
     
-    background-image: url("..//assets/Giant\ Panda\ \(1\).png");
+    background-image: url("https://s3-alpha-sig.figma.com/img/07d0/eb6a/6c4379c95b7fac4756f94f501e2105b7?Expires=1668384000&Signature=chUjFzFyHN~RR3eX5HudqvidbVmplZnBSbb8cx~JDM4cAv-AFVXM8bsax~-KX9fOQYGAao1lNLwI4zJbyok~di6f79WzHd2Zrwmb35J866T8w0VydtyoIEeyIDYoMBk1TRI~u5bSfb67RptwNEZRNzvw8BU9cGtDpojasJC5eFPJT7a-2r0dCpzif~q7Oh0OLz43dFD8kD2eaw9x-kxIDrrwTSfx5syElx9Qsw92uSyGxoGYvghp3GqjiXDpDYLqdkRoym0xoFfTnx-Mxaw19lx3qiMReybPIpjy25FRZd-0mrrOce1HICTUQtHdLH-FISmCEJatEUdF2UEX3~ainA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,7 +208,10 @@ place-items: center;
    
 }
 .bambo-img{
-    background-image: url("../assets/bamboo-cap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://s3-alpha-sig.figma.com/img/c1e5/e740/99e1e2726f758b45089960242daf7bfc?Expires=1668384000&Signature=hRylXbljEeT3HmZewRrLF3H42avbLAIJoDQK0lZMEdy71MTbLi0rgb0~50cykXJ2WBoIKHXeS2pN7ek5~gUTIWNoAaALucmeiFJpMopxtd8hLHmttROfiY9aazf3oUxTscpXWkGym6oJgJQwkrMpoDmMt4g0~kFOLzEn~vhoEHwGOdBMo9DAcwhGI9Zq7bmrLIkJ28cG2QP8G4XNDsUaQTMcHnNbuH1bRqRixpF9yuVTFTdN1MS8pBwY~geZzn6slDXqc3e58Qifr3QKcaSzoHkG6EiCqHaeUaNmHECNVu6U2NHq0B2M2GpM4DxWGX7pN6Z7VmNrCzhKK5kjnVIhfg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
 }
 .bambo-info{
    display: flex;
@@ -320,39 +323,39 @@ gap:10px;
         cursor: pointer;
     }
     .first-part div:last-child{
-        background-image: url('../assets/foto-card3.png');
+        background-image: url('../docs/foto-card3.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:first-child{
-        background-image: url('../assets/foto-card1.png');
+        background-image: url('../docs/foto-card1.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:nth-child(2){
-        background-image: url('../assets/foto-card2.png');
+        background-image: url('../docs/foto-card2.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:last-child{
-        background-image: url('../assets/foto-card3.png');
+        background-image: url('../docs/foto-card3.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
 
     /* ////////////// */
     .second-part div:first-child{
-        background-image: url('../assets/foto-card5.png');
+        background-image: url('../docs/foto-card5.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .second-part div:nth-child(2){
-        background-image: url('../assets/foto-card6.png');
+        background-image: url('../docs/foto-card6.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .second-part div:last-child{
-        background-image: url('../assets/foto-card7.png');
+        background-image: url('../docs/foto-card7.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -551,15 +554,15 @@ align-items: center;
 }
 
 .first-box .donate-img{
-    background-image: url('../assets/pay.png');
+    background-image: url('../docs/pay.png');
   
   
 }
 .second-box .donate-img{
-    background-image: url('../assets/zoo.png');
+    background-image: url('../docs/zoo.png');
 }
 .third-box .donate-img{
-    background-image: url('../assets/monkey.png');
+    background-image: url('../docs/monkey.png');
 }
 .donate-method{
    margin-top: 4px;
@@ -651,16 +654,16 @@ height: 25.08px;
     color: #333B41;
 }
 .testimonial .test-box:first-child{
-  background-image: url('../assets/testimonials.png');
+  background-image: url('../docs/testimonials.png');
 }
 .testimonial .test-box:nth-child(2){
-    background-image: url('../assets/testimonials (1).png')
+    background-image: url('../docs/testimonials (1).png')
 }
 .testimonial .test-box:nth-child(3){
-    background-image: url('../assets/testimonials (2).png');
+    background-image: url('../docs/testimonials (2).png');
 }
 .testimonial .test-box:last-child{
-    background-image: url('../assets/testimonials (3).png');
+    background-image: url('../docs/testimonials (3).png');
 }
 .test-container button{
     transition: all 0.3s;
