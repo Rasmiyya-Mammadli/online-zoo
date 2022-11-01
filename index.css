@@ -323,17 +323,17 @@ gap:10px;
         cursor: pointer;
     }
     .first-part div:last-child{
-        background-image: url('/online-zoo/docs/foto-card3.png');
+        background-image: url('/online-zoo../docs/foto-card3.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:first-child{
-        background-image: url('/online-zoo/docs/foto-card1.png');
+        background-image: url('/online-zoo../docs/foto-card1.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     .first-part div:nth-child(2){
-        background-image: url('/online-zoo/docs/foto-card2.png');
+        background-image: url('/online-zoo../docs/foto-card2.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
