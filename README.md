@@ -1,2 +1,2 @@
 # online-zoo
-theme:minima
+theme: midnight
