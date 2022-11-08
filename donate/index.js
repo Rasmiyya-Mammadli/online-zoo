@@ -21,7 +21,6 @@ news.addEventListener('keyup',(e)=>{
     }
    else if(e.key=='Enter'&&e.target.value.endsWith('com')){
         news.style.borderColor='green'
-        news.style.color='green'
         news.style.boxShadow='0 0 10px green'
     }
 })
