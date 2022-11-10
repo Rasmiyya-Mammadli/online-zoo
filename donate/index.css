@@ -26,8 +26,17 @@ justify-content: space-around;
     position: absolute;
     height: 20.982316357922357px;
     width: 7.028248463826111px;
-    left: 13px;
-    top: 24.63623046875px;
+    left: 240px;
+    top: 34px;
+    border-radius: 0px;
+    
+}
+.bamboo2 {
+    position: absolute;
+    height: 20.982316118484405px;
+    width: 7.028248373515094px;
+    left: 236.23193359375px;
+    top: 2037px ;
     border-radius: 0px;
     
 }
@@ -155,17 +164,16 @@ nav ul li a:hover {
 }
 .containerinside h2 {
 
+
     font-family: Roboto;
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FE9013;
-    width: 463px;
-    height: 58px;
+    color: rgba(254, 144, 19, 1);
     padding-top: 30px;
-    margin: auto;   
+      
 }
 .containerinside p{
     width: 849px;
@@ -390,7 +398,7 @@ input[type="radio"]:checked {
   
 .feedbutton:hover {
     cursor: pointer; 
-    background: orangered;
+    opacity: 0.6;
 
 }
 .sharetext{
@@ -398,7 +406,7 @@ input[type="radio"]:checked {
     margin: auto;
     height: 22px;
 width: 301px;
-margin-left: 350px;
+margin-left: 338px;
     
 }
 .sharetext p{
@@ -411,7 +419,10 @@ margin-left: 350px;
 }
 
 
-
+.sevendot {
+    cursor: pointer;
+    color: orangered;
+}
 
 
 
@@ -573,7 +584,7 @@ margin-top: 20px;
 }
 .donate-line h4 a{
     font-family: 'Roboto';
-    font-style: normal;
+
   
     font-size: 17.0145px;
     text-align: center;
@@ -637,22 +648,3 @@ color: #ffffff;
 .social-links ul li a:hover, .social-links ul li a i:hover{
     color: green;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
