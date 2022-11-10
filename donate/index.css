@@ -398,7 +398,7 @@ input[type="radio"]:checked {
   
 .feedbutton:hover {
     cursor: pointer; 
-    opacity: 0.6;
+    background: orangered;
 
 }
 .sharetext{
