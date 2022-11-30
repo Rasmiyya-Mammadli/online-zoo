@@ -10,11 +10,11 @@ html {
     width: 100%;
 }
 button{
-    transition: all 0.3s;
+  
 
 }
 button:hover{
-    transform: rotate(15deg);
+    background: orangered;
     cursor: pointer;
 }
 
@@ -1047,60 +1047,92 @@ border-radius: 20px;
      .bambo-container{
         flex: 100%;
         width: 95%;
+        margin-top: -179px;
          
      }
+     .text-part .subtitle{
+        margin-top: 60px;
+        margin-left: -280px;
+       
+     }
+
      .flower{display: none;}
      .bambo-img, .bambo-info{
         width: 40%;
         display: flex;
+        height: 408px;
      }
      .bambo-info {
         padding: 0px 20px;
+        margin-top: -10px;
      }
      .bambo-info .heading-part, .bambo-info .text-part, .bambo-info .subtitle{
         text-align: left;  
      }
+     .bambo-info .text-part p:nth-child(2){
+        margin-top: -20px;
+     }
      .animals{
         width: 100%;
         margin-left: -80px;
+        margin-top: -180px;
      }
      .animals-container{
-        flex: 100%;
-        width: 70%;   
+        flex: 100%;  
+        margin-left: 110px;
      }
+     .first-part{
+        width: 942px;
+     }
+    
      .first-part div, .second-part div {
-        margin: 0px 20px;
-        
+        height: 354px;
+width: 295px;  
+
+     }
+     .second-part{
+        width: 942px;
+        margin-top: 30px;
      }
       .left-button{
-       left: 375px; 
-       top: 1742px;
+       left: 355px; 
+       top: 1612px;
       }
       .right-button{
-        top: 1742px;
-        right: 375px;
+        top: 1612px;
+        right: 355px;
+      }
+      .animals button{
+        margin-top: -190px;
+        margin-left: -90px;
       }
       .palm{
        
-        top: 2284px;
+        top: 2104px;
         width: 186px;
         height: 202px;
       }
       .strel{
-        top: 2306px;
+        top: 2126px;
         left: 759px;
         width: 241px;
         height: 180px;
       }
       .feed-section{
         width: 100%;
+        height: 876px;
       }
        .feed-container{
         width: 940px;
         height: 796px;
+        margin-top: -10px;
        }
        .feed-info h5, .feed-info p{
-        padding: 0px 20px;
+        padding: 0px 40px;
+        width: 843px;
+       }
+       .feed-info h2{
+        margin-top: 23px;
        }
        .vector1{
         left: 311px;
@@ -1108,25 +1140,38 @@ border-radius: 20px;
        .vector2{
         left: 584px;
        }
+      
+       .donate-boxes{
+        margin-left: -70px;
+        margin-top: 20px;
+       }
        .testimonials{
         width: 90%;
         margin: auto;
-
+       height: 847px;
        }
        .testimonial{
         width: 100%;
         flex: 100%;
         gap: 1.4rem;
+        
+       }
+       .test-container{
+        margin-top: 40px;
        }
        .testimonial div:last-child{
         display: none;
+       }
+       .test-container button{
+        margin-top: -270px;
+        margin-left: -45px;
        }
        .text-box{
         width: 293px;
         height: 391px;
        }
        .leav{
-        top: 4190px;
+        top: 3740px;
         left: 700px;
        }
        footer{
@@ -1135,10 +1180,15 @@ border-radius: 20px;
 
        .social{
         width: 100%;
+        margin-left: 10px;
        }
+
        .news{
-        width: 70%;
+        width: 200px;
         flex: 100%;
+       }
+       .designed{
+        margin-right: -187px;
        }
        .menu{
         flex: 50%;
@@ -1152,6 +1202,13 @@ border-radius: 20px;
         width: 100%;
         margin-left: 20px;
        }
+       .donate-line button{
+        margin-top: 70px;
+       }
+       .social-links{
+        margin-top: -30px;
+        height: 100px;
+       }
     }
 @media(max-width: 640px){
 .navigation h1{
@@ -1164,6 +1221,12 @@ border-radius: 20px;
 .navigation  li,.navigation .designed{
     display: none;
 }
+.navigation{
+    position: fixed;
+    width: 640px;
+    height: 34px;
+    flex: 100%;
+}
 .burger{
     display: block;
     color: #FFFFFF;
@@ -1172,7 +1235,9 @@ border-radius: 20px;
     left: 610px;  
    
 } 
-
+.panda{
+    width: 100%;
+}
 body {
     width: 100%;
    height: 3181px;
@@ -1183,11 +1248,7 @@ body {
 .bamboo2{
     display: none;
 }
-.navigation{
-    height: 34px;
-    width: 100%;
-    flex: 100%;
-}
+
 .circle {
     position: absolute;
     left: 330px;
@@ -1197,7 +1258,7 @@ body {
 }
 .panda-container{
     width: 100%;
-    height: 339px;
+    height: 373px;
    
 }
 .bamboo{
@@ -1229,13 +1290,17 @@ body {
  }
  .subtitle{
     margin-left: -280px;
-   margin-top: 10px;
+   margin-top: -40px;
 }
 .heading-part p{
     margin-top: 20px;
 }
-.text-part p:last-child{
-    margin-top: -60px;
+.bambo-info.text-part p:last-child{
+    margin-top: -130px;
+   
+}
+.text-part{
+    margin-top: -20px;
 }
 
  .flower{
@@ -1271,13 +1336,17 @@ body {
  .second-part div:last-child{
     display: none;
  }
+ .first-part, .second-part{
+    width: 599px;
+    margin-left: -30px;
+ }
  
   .left-button{
    left: 243px; 
-   top: 1222px;
+   top: 1252px;
   }
   .right-button{
-    top: 1222px;
+    top: 1252px;
     right: 243px;
   }
   .palm2{display: none;}
@@ -1337,6 +1406,7 @@ border-radius: 0px;
     }
     .donate-boxes{
         margin-top: -10px;
+        margin-left: 7px;
     }
    .feed-info h5{
     width: 600px;
@@ -1348,6 +1418,7 @@ border-radius: 0px;
     width: 600px;
     height: 42px;
     font-size: 16px;
+    margin-top: -20px;
     
    }
    .feed-info p:last-child {
@@ -1359,9 +1430,15 @@ border-radius: 0px;
     margin-left: 80px;
     
    }
+   .feed-info h2{
+    margin-top: 10px;
+   }
    .feed-info{
     box-sizing: border-box;
     width: 600px;
+   }
+   .feed-donate{
+    margin-top: 10px;
    }
    section{
     width: 100%;
@@ -1401,6 +1478,10 @@ border-radius: 0px;
     flex-direction: column;
     width: 30%;
     height: 360px;
+    
+   }
+   .test-container{
+    margin-top: 10px;
    }
    .testimonial div:last-child{
     display: none;
@@ -1473,10 +1554,13 @@ border-radius: 0px;
     width: 100%;
    
    }
+   .donate-line button{
+    margin-top: 30px;
+   }
    .social-links {
     position: absolute;
-    left:580px;
-    top: 3214px;
+    left:560px;
+    top: 3244px;
    }
    .social-links ul li a{
     color: #111115;
@@ -1508,8 +1592,8 @@ border-radius: 0px;
     height: 52px;
     font-size: 19px;
    }
-  .palm{display: none;}
-}
+  .palm{display: none;}}
+
  
 @media (max-width: 320px) {
 html{width: 100%;}
