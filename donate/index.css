@@ -7,11 +7,18 @@
     box-sizing: border-box;
     font-family: 'Roboto';
     }
-    
+    html{
+        width: 100rem;
+        margin: auto;
+    }
+    body{
+        width: 100rem;
+        margin: auto;
+    }
+
 .navigation {
-    height: 80px;
-    width: 1600px;
-    border-radius: 0px;
+    height: 5rem;
+    width: 100rem;
     background: black;
     color: white;
     margin-right: 0;   
@@ -20,8 +27,8 @@
 nav{
   
 display: flex;
-width: 1600px;
-height: 80px;
+width: 100rem;
+height: 5rem;
 color: white;
 justify-content: space-around;
 }
@@ -45,13 +52,13 @@ justify-content: space-around;
 }
 h1 {
     box-sizing: border-box;
-    height: 52px;
-    width: 82px;
-    border-radius: 2px;
+    height: 3.25rem;
+    width: 5.125rem;
+    border-radius: 0.125rem;
     
     font-weight: 400;
-    font-size: 19.0145px;
-    line-height: 23px;
+    font-size: 19.01px;
+    line-height: 1.438;
     text-align: center;
     color: #FFFFFF;
     border: 1.18841px solid #FFFFFF;
@@ -66,7 +73,7 @@ h1 :hover{
 }
 nav ul{
     display: flex; 
-    width:600px;
+    width:37.5rem;
     justify-content: space-between;
     align-items: center;
     
@@ -100,40 +107,40 @@ nav ul li a:hover {
     color: #F9804B;
 }
 .panda {
-    height: 390px;
-    width: 1600px;
+    height: 24.375rem;
+    width: 100%;
     Scale: fill;
 }
 
 /*....................*/
 
 .maincontainer {
-    height: 1482px;
-    width: 1600px;
+    height: 92.625rem;
+    width: 100rem;
     border-radius: 0px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     margin-top: -4px;   
 }
 .textdiv {
-    height: 94px;
-    width: 1160px;
-    padding-top: 50px;
+    height: 5.875rem;
+    width: 72.5rem;
+    padding-top: 3.125rem;
     margin:auto;
     
 }
 .maincontainer div h3 {
     font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
-    line-height: 46.8px;
+    line-height: 2.925rem;
     color: #FFFFFF;
 }
 .pardiv {
-    height: 94px;
-    width: 1160px;
-    margin-left: 31px;
+    height: 5.875rem;
+    width: 72.5rem;
+    margin-left: 1.938rem;
     border-radius: nullpx;   
-    padding-top: 80px;
+    padding-top: 5rem;
     margin: auto;
 }
 .paragraph {
@@ -147,21 +154,20 @@ nav ul li a:hover {
 
 }
 .maincontainer >div:nth-child(3) {
-    height: 47px;
-    width: 341px;
-    margin-left: 220px;
+    height: 2.938rem;
+    width: 21.313rem;
+    margin-left: 13.75rem;
     border-radius: nullpx;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     
 }
 
 .containerinside{
-    height: 964px;
-    width: 1160px;
+    height: 60.25rem;
+    width: 72.5rem;
     border-radius: 20px;
     margin: auto;
-    border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);   
 }
@@ -179,10 +185,10 @@ nav ul li a:hover {
       
 }
 .containerinside p{
-    width: 849px;
-    height: 29px;
+    width: 53.063rem;
+    height: 1.813rem;
     margin: auto;
-    padding-top: 50px; 
+    padding-top: 3.125rem; 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -194,28 +200,28 @@ nav ul li a:hover {
 
 .iconcontainer {
     display: flex;
-    margin-left: 200px;
-    margin-top: 170px;
+    margin-left: 12.5rem;
+    margin-top: 10.625rem;
       
     
 }
 .minipanda {
-    height: 200px;
-    width: 268.49169921875px;
-    margin-left: -580px;
-    margin-top: -80px;
+    height: 12.5rem;
+    width: 16.781rem;
+    margin-left: -36.25rem;
+    margin-top: -5rem;
 }
 .four {
-   margin-left: 140px;
+   margin-left: 8.25rem;
     text-align: center;
      
 }
 .iconcontainer i{
     position: absolute;
-    height: 14px;
-    width: 14px;
-    top: 300px;
-    left:500px   
+    height: 0.875rem;
+    width: 0.875rem;
+    top: 18.75rem;
+    left:31.25rem;
 }
 .iconcontainer p{
 
@@ -226,11 +232,11 @@ nav ul li a:hover {
     letter-spacing: 0em;
     color: rgba(51, 59, 65, 1);
     margin-left: 110px;
-    margin-top: -40px;
+    margin-top: -2.5rem;
 }
 .altcontainer{
-  width: 1160px; 
-  height: 441px; 
+  width: 72.5rem; 
+  height: 27.563rem; 
   margin-top: 0px;
   
 }
@@ -241,16 +247,16 @@ nav ul li a:hover {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    margin-left: 92px;
+    margin-left: 5.75rem;
     
 }
 .scalebox {
-    height: 27px;
-    width: 976px;
+    height: 1.688rem;
+    width: 61rem;
     border-radius: 2px;
     background: rgba(64, 73, 80, 1);
-    margin-top: 50px;
-    margin-left: 92px;
+    margin-top: 3.125rem;
+    margin-left: 5.75rem;
     display: flex;
     border: 2px solid brown;
     align-items: center;
@@ -260,8 +266,8 @@ nav ul li a:hover {
 }
 
 .inside-scale{
-    width: 915px;
-    height: 2px;
+    width:57.188rem;
+    height: 0.125rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -271,8 +277,8 @@ nav ul li a:hover {
 .scalebox .inside-scale div {
 
 
-    height: 10px;
-    width: 10px;
+    height: 0.625rem;
+    width: 0.625rem;
     transition: all 0.3s;
     border-radius: 50%;
     background: rgba(255, 238, 46, 1);
@@ -283,37 +289,37 @@ nav ul li a:hover {
     cursor: pointer;
     content: '';
     transition: all 0.3s;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     display: block;
     border: 1px solid rgb(219, 92, 18);border-radius: 50%;
-transform: translate(-11px,-12px);
+transform: translate(-0.688rem,-0.75rem);
 }
 .scalebox .inside-scale div:hover::after{
     cursor: pointer;
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     display: block;
     border: 1px solid rgb(219, 92, 18);border-radius: 50%;
-transform: translate(-5px,-40px);
+transform: translate(-0.313rem,-2.5rem);
 }
 .scalebox .inside-scale div:nth-child(3)::before{
     content: '';
     transition: all 0.3s;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     display: block;
     border: 1px solid rgb(219, 92, 18);border-radius: 50%;
-transform: translate(-11px,-12px);
+transform: translate(-0.688rem,-0.75rem);
 }
 .scalebox .inside-scale div:nth-child(3)::after{
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     display: block;
     border: 1px solid rgb(219, 92, 18);border-radius: 50%;
-transform: translate(-5px,-40px);
+transform: translate(-0.313rem,-2.5rem);
 }
 .click-inside{
     border: orange;
@@ -321,36 +327,36 @@ transform: translate(-5px,-40px);
 }
 
 .box {
-    height: 2px;
-    width: 915px;
+    height: 0.125rem;
+    width: 57.188rem;
     border-radius: 0px;
     background: #E0D8F0;  
 }
 .altcontainer img{
-    margin-left: 100px;
-    margin-top: 13px;
-    width: 976px;
-    height: 36px;
+    margin-left: 6.25rem;
+    margin-top: 0.813rem;
+    width: 61rem;
+    height: 2.25rem;
 }
 
 .input-field{
-    height: 54px;
-    width: 268px;
+    height: 3.375rem;
+    width: 16.75rem;
     border-radius: 2px;
     border: 1px solid rgba(146, 150, 153, 1);
-    margin-top: 30px;
-    margin-left: -260px;
+    margin-top: 1.875rem;
+    margin-left: -16.25;
     background: transparent;
 }
 .input-icon {
-margin-left: 684px;
-margin-top: 20px;
+margin-left: 42.75rem;
+margin-top: 1.25rem;
 }
 .inputradio {
 display: flex;
-width: 210px;
+width: 13.125rem;
 margin: auto;
-margin-top: 10px;
+margin-top: 0.625rem;
 text-align: center;
 
 }
@@ -361,17 +367,17 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
-margin-left: 7px;
+margin-left: 0.438rem;
 color:#333B41;
-margin-top: 10px;
+margin-top: 0.625rem;
 }
 input[type="radio"] {
 	appearance: none;
-	width: 40px;
-    height: 16px;
+	width: 2.5rem;
+    height: 1rem;
 	border: 1px solid orange;
     border-radius: 50%;
-    margin-top: 13px;
+    margin-top: 0.813rem;
 }
 
 input[type="radio"]:checked {
@@ -380,14 +386,14 @@ input[type="radio"]:checked {
 }
 
 .feedbutton {
-    height: 54px;
-    width: 298px;
+    height: 3.375rem;
+    width: 18.625rem;
     border-radius: 25px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-style: none;
     color: #FFFFFF;
-    margin-top: 30px;
-    margin-left: 427px;  
+    margin-top: 1.875rem;
+    margin-left: 26.688rem;  
     
 
     font-family: Roboto;
@@ -407,9 +413,9 @@ input[type="radio"]:checked {
 .sharetext{
     color: rgba(51, 59, 65, 1);
     margin: auto;
-    height: 22px;
-width: 301px;
-margin-left: 338px;
+    height: 1.375rem;
+width: 18.813rem;
+margin-left: 21.125rem;
     
 }
 .sharetext p{
@@ -435,22 +441,22 @@ margin-left: 338px;
 
 /* /////////////////////////// */
 footer{
-    width: 1600px;
-    height: 443px;
+    width: 100rem;
+    height: 27.688rem;
     display: grid;
     place-items: center;
     background: #111115;
 }
 
 .footer-container{
-    width: 1160px;
-    height: 350px;
+    width: 100rem;
+    height: 21.875rem;
     display: flex;
     
 
 }
 .footer-container>div{
-    width: 350px;
+    width: 21.875rem;
     height: 100%;
 
 }
@@ -467,8 +473,8 @@ justify-content: space-between;
 
 }
 .menu ul li a{
-    width: 32px;
-height: 22px;
+    width: 2rem;
+height: 1.375rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -477,8 +483,8 @@ line-height: 140%;
 color: #FFFFFF;
 }
 .menu ul li:first-child a{
-    width: 43px;
-height: 22px;
+    width: 2.688rem;
+height: 1.375rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -490,8 +496,8 @@ line-height: 140%;
 color: orange;
 }
 label{
-    width: 237px;
-height: 29px;
+    width: 14.813rem;
+height: 1.813rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -505,9 +511,9 @@ color: #FFFFFF;
     border: 1px solid red;
 }
 #news{
-    padding-left: 5px;
-    width: 228px;
-height: 42px;
+    padding-left: 0.313rem;
+    width: 14.25rem;
+height: 2.625rem;
 color: #ffffff;
 
 background-color: transparent;
@@ -523,9 +529,9 @@ background-color: transparent;
     margin-left: 5px;
 background: #F1F3F2;
 border: 1px solid #4B9200;
-border-radius: 5px;
-width: 129px;
-height: 42px;
+border-radius: 0.313rem;
+width: 8.063rem;
+height:2.625rem;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -541,7 +547,7 @@ color: #4B9200;
     opacity: 0.6;
 }
 .news{
-    padding-top: 15px;
+    padding-top: 0.938rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -578,11 +584,11 @@ color: #FFFFFF;
 .donate-line h4{
     text-align: center;
     border: 1px solid #ffffff;
-    width: 82px;
-height: 52px;
-padding-bottom: 4px;
+    width: 5.125rem;
+height: 3.25rem;
+padding-bottom: 0.25rem;
 
-margin-top: 20px;
+margin-top:1.25rem;
 
 }
 .donate-line h4 a{
@@ -598,12 +604,12 @@ margin-top: 20px;
 color: orange;
 }
 .donate-line button{
-margin-top: 45px;
-    width: 298px;
-height: 54px;
+margin-top: 2.813rem;
+    width: 18.625rem;
+height: 3.375rem;
 background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 border-radius: 5px;
-border-radius: 5px;
+
 
 }
 .donate-line button a{
@@ -621,14 +627,14 @@ cursor: pointer;
 background: orangered;
 }
 .social-links ul{
-    margin-top: 55px;
+    margin-top: 3.438rem;
 }
 .social-links ul li{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
 }
 .social-links ul li a {
-    margin-left: 2px;
+    margin-left: 0.125rem;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -641,13 +647,524 @@ line-height: 140%;
 color: #FFFFFF;}
 
 .social-links ul li a i{
-    width: 18px;
-height: 12.99px;
+    width: 1.125rem;
+height: 0.812rem;
 
-margin-right: 2px;
+margin-right: 0.125rem;
 transition: all 0.3s;
 color: #ffffff;
 }
 .social-links ul li a:hover, .social-links ul li a i:hover{
     color: green;
+}
+.price5{
+    display: none;
+}
+.price3{
+    display: none;
+}
+.burgermenu{
+    display: none;
+}
+.price4{
+    display: none;
+}
+@media(max-width: 1000px){
+
+    html{width: 100%;
+    height: 140.375;}
+    body{width:100% ;}
+.navigation{
+    width: 100%;
+    height: 5rem;
+    margin-left: 0px;
+    display: flex;
+   
+}
+.navigation h1{
+    margin-left: 1.25rem;
+    font-size: 100%;
+    width: 5.125rem;
+    height:3.25rem;
+    font-size: 19px;
+    line-height: 22.82px;
+    
+ }
+ .navigation li{
+  margin-left: 0px;
+ }
+ .navigation ul, .navigation div {
+     flex: 100%;
+     font-size: 16px;
+ }
+ .navigation ul{
+    width: 900px;
+    
+ }
+ .designed{
+    margin-left: 140px;
+ }
+ .navigation ul li a{
+     font-size: 100%;
+ }
+ .bamboo{
+    height: 20.982316357922357px;
+width: 7.028248463826111px;
+left: 37.15px;
+top: 37.64px;
+border-radius: 0px;
+
+ }
+ .maincontainer{
+    width: 100%;
+    padding-top: -1.5rem;
+    height: 84rem;
+ }
+ .textdiv{
+    width: 80%;
+    margin-left: 1.3rem;
+    margin-top: -1rem;
+ }
+ .pardiv{
+    width: 90%;
+    margin-left: 1.3rem;
+ }
+ .maincontainer div:nth-child(3){
+    margin-left: 1.3rem;
+    margin-top: 1rem;
+   
+ }
+ .containerinside{
+    width: 95%;
+    height: 57.375rem;
+    margin-top: 5.6rem;
+ }
+.containerinside h2{
+    padding-top: 1rem;
+}
+.containerinside p{
+    margin-top: -2rem;
+}
+.iconcontainer{
+    padding-top: 11rem;
+    padding-left: 6rem;
+}
+.altcontainer{
+   padding-top: 1.7rem;
+}
+.scalebox div:nth-child(2){
+    display: none;
+}
+.altcontainer .scalebox{
+ width: 70%;
+ margin-left: 4.5rem;
+}
+.price1{
+    display: none;
+}
+.price3{
+    display: block;
+}
+.input-field{
+    margin-left: -22rem;
+}
+.input-icon .iconn{
+    position: absolute;
+    top: 650px;
+    left: 584px;   
+}
+.inputradio{
+    margin-left: 23rem;
+}
+.feedbutton{
+    margin-left: 20rem;
+}
+.sharetext{
+    margin-left: 14.3rem;
+}
+ footer{
+    width: 100%;
+ }
+ .social{
+    width: 50%;
+    
+ }
+ .news div:first-child{
+    margin-left: -7rem;
+ }
+ .bamboo2{
+   left: 47.02px;
+   top: 1890px;
+ }
+ .footer-container{
+    width: 94%;
+ }
+}
+@media (max-width:640px){
+
+html{width: 100%;
+height: 124rem;}
+body{width: 100%;
+    height: 124rem;
+}
+.navigation{width: 40rem;
+height: 2.125rem;
+position: fixed;}
+.navigation ul li, .navigation .designed{
+    display: none;
+}
+.panda{
+    width: 100%;
+    height: 23.063rem;
+}
+.navigation h1{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+border-style: none;
+width: 2.929rem;
+height: 1.814rem;
+margin-top: -2.6rem;
+
+}
+.bamboo{
+    height: 13.561741432773928px;
+width: 4.542648583433809px;
+left: 24px;
+top: 13.986328125px;
+border-radius: 0px;
+
+}
+.burgermenu{
+    position: absolute;
+    height: 10px;
+width: 18px;
+left: 602px;
+top: 11px;
+border-radius: 0px;
+display: block;
+}
+
+.maincontainer{
+    width: 100%;
+}
+.maincontainer h3 {
+    width: 150%;
+    font-size: 22px;
+    line-height: 28px;
+    height: 3.625rem;
+    padding-top: -6rem;
+    margin-top: -1rem;
+}
+.pardiv{
+    margin-top: -2.5rem;
+}
+.maincontainer div:nth-child(3){
+    margin-top: 4.7rem;
+}
+.containerinside{
+    margin-top: 3.7rem;
+}
+
+.containerinside p:nth-child(2){
+    width: 90%;
+    text-align: center;
+    padding-top: 4rem;
+}
+.iconcontainer{
+    width: 100%;
+    
+}
+.iconcontainer span i{
+    left: 207px;
+    top: 330px;
+}
+.iconcontainer p{
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+.minipanda{
+    margin-left: 6rem;
+    margin-top: -8rem;
+    
+}
+.four{
+    margin-top: -8rem;
+}
+.iconcontainer div:first-child{
+    margin-left: -11rem;
+}
+.altcontainer .scalebox{
+    width: 37.9rem;
+    margin-left: 0rem;
+}
+.scalebox div:nth-child(2){
+    display: block;
+}
+.scalebox div:nth-child(5){
+    display: none;
+}.scalebox div:nth-child(6){
+    display: none;
+}
+.price3{display: none;}
+.price4{display: block;}
+.altcontainer .price4{
+    margin-left: 0rem;
+    width: 37.9rem;
+}
+.altcontainer p:first-child{
+margin-left: 1rem;
+}
+.input-icon i{
+    margin-left: -13rem;   
+    margin-top: 1.3rem;
+}
+.inputradio{
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+.input-field{
+    margin-left: -30rem;
+    width: 40%;
+    height: 2.625rem;
+}
+.feedbutton{
+    margin-left: 10rem;
+}
+.sharetext{
+    margin-left: 8.7rem;
+}
+footer{width: 100%;
+height: 17.625rem;}
+.footer-container{
+    height: 17.625rem;
+}
+.news div:first-child{display: none;
+margin-top: -40rem;}
+
+.social-links{
+    margin-top: -13.2rem;
+    margin-left: 31rem;
+    width: 7rem;
+}
+.menu{
+    width: 90%;
+    height: 30px;
+    margin-top: -1.2rem;
+    margin-left: -22em;
+}
+.designed-footer{
+    margin-top: 13rem;
+}
+
+.bamboo2{
+    top: 1740px;
+    left: 40px
+} 
+
+}
+@media(max-width:320px){
+    .navigation{
+        width: 20rem;
+        position: fixed;
+    }
+    .panda{
+        width: 100%;
+        height: 13.813rem;
+    }
+    body{
+        width: 100%;
+        margin: auto;
+        height: 106.313rem;
+    }
+    html{
+        height: 106.313rem;
+    }
+    .textdiv{
+        height: 5.438rem;
+        width: 12rem;
+        margin-top: 0rem;
+    }
+    .maincontainer .textdiv h3{
+        font-size: 1.5rem;  
+        line-height: 1.8rem;
+    }
+    .maincontainer{
+        height: 71.563rem;
+    }
+    .pardiv{
+        margin-top: -1.8rem;
+    }
+    .containerinside{
+        height: 36.938rem;
+        margin-top: 2.6rem;
+    }
+    .maincontainer div:nth-child(3){
+        margin-top: 14.8rem;
+        width: 12rem;
+       
+    }
+    .altcontainer img .price5{
+        width: 18.75rem;
+    }
+    .maincontainer div:nth-child(3) h3{
+        font-size: 1.5rem;  
+        line-height: 1.8rem;
+    }
+
+    .containerinside h2{
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .containerinside p:nth-child(2){
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 18.75rem;
+        margin-top: -3rem;
+    }
+    .containerinside.iconcontainer{
+        width: 18.75rem;
+        margin-top: -20rem;
+    }
+    .iconcontainer{
+    
+        width: 18.75rem;
+        
+    }
+  
+    .iconcontainer span i{
+        left: 102px;
+        top: 188px;
+    }
+    .iconcontainer div:first-child p{
+        margin-left: 0.2rem;
+        margin-top: -3.8rem;
+        font-size: 9.2px;
+    }
+    .minipanda{
+       position: absolute;
+       height: 137.91890716552734px;
+width: 161.40493774414062px;
+left: 39.35px;
+top: 244px;
+border-radius: 0px;
+    }
+  .altcontainer{
+    margin-top: 3rem;
+    margin-left: -9.8rem;
+  }
+  .four{
+    width: 3rem;
+  }
+    .iconcontainer div:first-child{
+        margin-left: -14rem;
+        margin-top: -18rem;
+    }
+    .altcontainer .scalebox{
+        width: 18.75rem;
+        height: 0.844rem;
+        margin-left: 10rem;
+        margin-top: -16.4rem;
+    }
+    .scalebox div:nth-child(3){
+        display: none;
+        width: 0.2rem;
+        border-radius: 50%;
+    }
+   
+    .iconcontainer .four{
+     margin-top: -200rem;
+
+    }
+    .price3{display: none;}
+    .price4{display: none;}
+    .price5{display: block;}
+    .altcontainer .price5{
+        margin-left: 10rem;
+        width: 18.75rem;
+        height: 1.125rem;
+    }
+    .altcontainer p:first-child{
+       display: none;
+
+    }
+    
+    .input-icon i{
+        margin-left: -23rem;   
+        margin-top: -18.3rem;
+    }
+    .inputradio{
+        margin-left: 14rem;
+        margin-top: 1rem;
+        
+    }
+    .input-field{
+        margin-left: -29rem;
+        margin-top: -0.3rem;
+        width: 38%;
+        height: 2.625rem;
+    }
+    
+    .feedbutton{
+        margin-left: 10rem;
+    }
+    .sharetext{
+       display: none;
+    }
+    footer{width: 20rem;
+    height: 20.875rem;}
+    .footer-container{
+        height: 20.875rem;
+        
+    }
+    .donate-line h4{
+        width: 8rem;
+        border-style: none;
+        margin-left: 5rem;
+    }
+    .donate-line button{
+        margin-left: -0.5rem;
+    }
+    .news div:first-child{display: none;
+    margin-top: -40rem;}
+    .social-links ul{
+        display: flex;
+        flex-direction: row
+    } 
+    .social-links ul li a{
+        color: black;
+    }
+    .social-links{
+        display: flex;
+        flex-direction: row;
+        margin-top: -10.2rem;
+        margin-left: 0rem;
+        width: 7rem;
+    }
+    .menu{
+        width: 40%;
+        height: 30px;
+        margin-top: -1.2rem;
+        margin-left: -22em;
+    }
+    .designed-footer{
+        margin-top: 13rem;
+        margin-left: -39rem;
+    }
+    
+    .bamboo2{
+        top: 1380px;
+        left: 177px
+    } 
+    .burgermenu{
+        height: 10px;
+width: 18px;
+left: 292px;
+top: 12px;
+border-radius: 0px;
+
+    }
 }

@@ -990,7 +990,7 @@ border-radius: 20px;
     .longbox3{display: none;}
 }
 
-@media (max-width:999px){
+@media (max-width:1000px){
     html {
         width: 100%;
     }
