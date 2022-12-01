@@ -844,6 +844,7 @@ text-align: center;
 
 color: #FFFFFF;
 }
+
 .donate-line h1{
     text-align: center;
     border: 1px solid #ffffff;
@@ -936,7 +937,7 @@ color: #ffffff;
     height: 71px;
 width: 85px;
 left: 233px;
-top: 2320px;
+top: 2218px;
 border-radius: 0px;
 display: none;
 
@@ -947,7 +948,7 @@ display: none;
     height: 72px;
 width: 60px;
 left: 0px;
-top: 2315px;
+top: 2213px;
 border-radius: 0px;
 
  }
@@ -980,6 +981,8 @@ border-radius: 20px;
 .arrow4{
     display: none;
 }
+.card3{display: none;}
+.card4{display: none;}
 /*media responsive coming..*/
 @media (max-width: 1600px)
 {
@@ -1598,8 +1601,9 @@ border-radius: 0px;
 @media (max-width: 320px) {
 html{width: 100%;}
 body{width: 100%;}
-.navigation{width: 100%;
+.navigation{width: 320px;
     height: 34px;
+    position: fixed;
 }
 .burger{
     display: block;
@@ -1617,20 +1621,20 @@ body{width: 100%;}
 }
 .panda-container{
     width: 100%;
-    height: 186.96px;
-    position: relative;
+    height: 220.96px;
+   
 }
 .circle{
     height: 119.09095764160156px;
 width: 119.09095764160156px;
 left: 164.90380859375px;
-top: 22.171875px;
+top: 56.171875px;
 }
 .panda-container p{
     height: 102.44384002685547px;
 width: 128.13401794433594px;
-left: 171px;
-top: 41.1240234375px;
+left: 175px;
+top: 75.1240234375px;
 border-radius: nullpx;
 font-size: 28px;
 font-weight: 700;
@@ -1640,7 +1644,7 @@ line-height: 20.41px;
     height: 54px;
 width: 298px;
 left: 11px;
-top: 207px;
+top: 237px;
 border-radius: 25px;
 }
 .flower{
@@ -1660,7 +1664,7 @@ border-radius: 25px;
     height: 58px;
     font-size: 24px;
     line-height: 28.8px;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-left: -209px;
 }
 .heading-part p{
@@ -1670,6 +1674,9 @@ border-radius: 25px;
     line-height: 20.8px;
     margin-top: 10px;
     margin-left: -209px;
+}
+.text-part{
+    margin-top: -38px;
 }
 .subtitle{
     height: 29px;
@@ -1684,7 +1691,8 @@ margin-top: 25px;
     font-size: 16px;
     line-height: 22.4px;
     margin-left: -209px;
-    margin-top: -60px;
+    margin-top: -100px;
+    padding-top: -20px;
 }
 .animals{
     width: 100%;
@@ -1699,36 +1707,54 @@ margin-top: 25px;
     height: 332px;
    position: absolute;
    top: 753px;
-   left: 0px;
+   left: 20px;
 }
 .first-part div:nth-child(2){
     width: 285px;
     height: 332px;
     position: absolute;
     top: 1105px;
-    left: 0px;
+    left: 20px;
 }
-.second-part div:first-child{
+.card3{
+    display: block;
     width: 285px;
     height: 332px;
     position: absolute;
     top: 1457px;
-    left: 0px;
+    left: 20px;
+     
+}
+.second-part div:first-child{
+    display: none;
+    width: 285px;
+    height: 332px;
+    position: absolute;
+    top: 1457px;
+    left: 20px;
 }
 .second-part div:nth-child(2){
     
+    display: none;
+}
+.card4{
+    display: block;
     width: 285px;
     height: 332px;
     position: absolute;
     top: 1807px;
-    left: 0px;
+    left: 20px;
+}
+
+.first-part, .second-part{
+    margin-left: 20px;
 }
 .right-button, .left-button{
     display: none;
 }
 .animals button {
-    margin-top: 360px;
-    margin-left: 80px;
+    margin-top: 860px;
+    margin-left: -270px;
 }
 .strel{display: none;}
 .strel2{display: block};
@@ -1738,6 +1764,7 @@ margin-top: 25px;
 .feed-section{
     width: 100%;
     height: 1082px;
+    margin-top: 120px;
 }
 .feed-container{
     width: 300px;
@@ -1764,7 +1791,7 @@ margin-top: 25px;
     display: none;
 }
 .feed-donate{
-    margin-top: -40px;
+    margin-top: -170px;
 }
 .feed-donate h2{
     font-size: 24px;
@@ -1774,7 +1801,7 @@ margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-    margin-top: 240px;
+    margin-top: 200px;
 }
 .donate-boxes .first-box{
   margin-left:0px;
@@ -1787,29 +1814,42 @@ margin-top: 25px;
     display: block;
    
 }
-
+.arrow3{display: none;}
+.arrow4{display: none;}
 .arrow2{
     display: block;
 
 }
-.donate{
-    margin-top: 300px;
-}
+.feed-section button:last-child{
+  position: absolute;
+  height: 54px;
+  width: 298px;
+  left: 10px;
+  top: 941px;
+  border-radius: 25px;
+  }
 
 .testimonials{
     width: 100%;
-    margin-top: -80px;
-    height: 860px;
+    
+    height: 690px;
 }
 .test-container{
     width: 299px;
-    
+    margin-top: -140px;
 
+}
+.test-container h2{
+    font-size: 24px;
+    margin-top: -10px;
 }
 .testimonial.test-box{
     width: 299px;
     height: 109px;
     margin-left: -20px;
+}
+.testimonial{
+    margin-top: -40px;
 }
 .testimonial.test-box{
     display: none;
@@ -1827,6 +1867,7 @@ margin-top: 25px;
       width: 299px;
       height: 109px;
       margin-left: 0px;
+      margin-top: -10px;
     
   }
   .testimonial .test-box:nth-child(3){
@@ -1834,17 +1875,25 @@ margin-top: 25px;
       width: 299px;
       height: 109px;
       margin-left: 0px;
+      margin-top: -10px;
   }
   .testimonials button{
     margin-left: 30px;
+    margin-top: 20px;
+  }
+  .leav{
+    left: 220px;
+    top: 3830px;
   }
   footer{
     margin-top: -100px;
     width: 100%;
+    height: 334px;
     
   }
   .footer-container{
     width: 100%;
+    height: 334px;
   }
   .menu{
     width: 100%;
@@ -1861,8 +1910,8 @@ margin-top: 25px;
   .social-links{
     display: flex;
     flex-direction: row;
-margin-left: -480px;
-margin-top: 260px;
+margin-left: -520px;
+margin-top: 660px;
   }
   .social-links ul{
     width: 40px;
