@@ -755,20 +755,31 @@ border-radius: 0px;
  }
  .containerinside{
     width: 95%;
+    
     height: 57.375rem;
     margin-top: 5.6rem;
  }
 .containerinside h2{
     padding-top: 1rem;
+    width: 100%;
+    min-width: 640px;
 }
 .containerinside p{
+    width: 90%;
+    min-width: 640px;
     margin-top: -2rem;
 }
+.iconcontainer i{margin-left: -8rem;}
 .iconcontainer{
+    width: 70%;
+    min-width: 320px;
     padding-top: 11rem;
     padding-left: 6rem;
 }
+.minipanda{margin-left: -26rem;}
 .altcontainer{
+    width: 100%;
+    min-width: 320px;
    padding-top: 1.7rem;
 }
 .scalebox div:nth-child(2){
@@ -778,11 +789,17 @@ border-radius: 0px;
     margin-top: 0px;
 }
 .altcontainer .scalebox{
- width: 70%;
- margin-left: 4.5rem;
+ width: 100%;
+ min-width: 600px;
+ margin-left: 0rem;
+}
+.countbox{
+    width: 100%;
+    min-width: 600px;
+    margin-left: 0rem;
 }
 .countbox div{
-    width: 70%;
+    width: 100%;
     margin-left: 30px;
 }
 .countbox div:nth-child(3){
@@ -817,17 +834,22 @@ border-radius: 0px;
 }
  footer{
     width: 100%;
+
  }
  .social{
     width: 50%;
     
  }
+
  .news{
-    margin-left: 10px;
+    margin-left: -9rem;
+    width: 100%;
+    
  }
  .news div:first-child{
-    margin-left: -7rem;
+   margin-left: 2rem;
  }
+ .menu{width: 500px;}
  .bamboo2{
    left: 47.02px;
    top: 1890px;
@@ -837,7 +859,8 @@ border-radius: 0px;
     margin-left: -20px;
  }
  .designed-footer{
-    margin-left: -10px;
+    margin-left: 9rem;
+    width: 300px;
  }
 }
 @media (max-width:640px){
@@ -881,16 +904,21 @@ html{width: 100%;
 height: 124rem;
 margin: auto;}
 body{width: 100%;
+    min-width: 320px;
     height: 124rem;
 }
 .navigation{width: 40rem;
+    min-width: 320px;
 height: 2.125rem;
 position: fixed;}
 .navigation ul li, .navigation .designed{
     display: none;
 }
+header{width: 100%;
+min-width: 320px;}
 .panda{
     width: 100%;
+    min-width: 320px;
     height: 23.063rem;
 }
 .navigation h1{
@@ -926,9 +954,11 @@ display: block;
 
 .maincontainer{
     width: 100%;
+    min-width: 320px;
 }
 .maincontainer h3 {
     width: 150%;
+    min-width: 320px;
     font-size: 22px;
     line-height: 28px;
     height: 3.625rem;
@@ -942,28 +972,30 @@ display: block;
     margin-top: 4.7rem;
 }
 .containerinside{
+    width: 37.5rem;
     margin-top: 3.7rem;
 }
 
 .containerinside p:nth-child(2){
     width: 90%;
+    min-width: 300px;
     text-align: center;
     padding-top: 4rem;
 }
 .iconcontainer{
-    width: 100%;
+    width: 80%;
     
 }
 .iconcontainer span i{
-    left: 207px;
+    left: 327px;
     top: 330px;
 }
 .iconcontainer p{
-    margin-left: 5rem;
+    margin-left: 1rem;
     margin-top: -2rem;
 }
 .minipanda{
-    margin-left: 6rem;
+    margin-left: 0rem;
     margin-top: -8rem;
     
 }
@@ -974,7 +1006,8 @@ display: block;
     margin-left: -11rem;
 }
 .altcontainer .scalebox{
-    width: 37.9rem;
+    width: 100%;
+    min-width: 300px;
     margin-left: 0rem;
 }
 .scalebox div:nth-child(2){
@@ -1029,7 +1062,7 @@ width: 690px;}
 }
 .input-field{
     margin-left: -30rem;
-    width: 40%;
+    width: 180px;
     height: 2.625rem;
     margin-top: -38px;
 }
@@ -1060,6 +1093,7 @@ margin-top: -40rem;}
 }
 .designed-footer{
     margin-top: 13rem;
+    margin-left: 9rem;
 }
 
 .bamboo2{
@@ -1103,6 +1137,7 @@ margin-top: -40rem;}
         margin-top: -1.8rem;
     }
     .containerinside{
+        width: 300px;
         height: 36.938rem;
         margin-top: 2.6rem;
     }
@@ -1120,14 +1155,16 @@ margin-top: -40rem;}
     }
 
     .containerinside h2{
+      margin-left: -10rem;
         font-size: 24px;
         line-height: 28.8px;
     }
     .containerinside p:nth-child(2){
         font-size: 16px;
         line-height: 22.4px;
-        width: 18.75rem;
+        width: 50%;
         margin-top: -3rem;
+       
     }
     .containerinside.iconcontainer{
         width: 18.75rem;
@@ -1153,7 +1190,7 @@ margin-top: -40rem;}
        position: absolute;
        height: 137.91890716552734px;
 width: 161.40493774414062px;
-left: 39.35px;
+left: 109.35px;
 top: 244px;
 border-radius: 0px;
     }
@@ -1169,7 +1206,7 @@ border-radius: 0px;
         margin-top: -18rem;
     }
     .altcontainer .scalebox{
-        width: 18.75rem;
+        width: 17.75rem;
         height: 0.844rem;
         margin-left: 9.8rem;
        
@@ -1266,8 +1303,8 @@ border-radius: 0px;
         margin-left: -22em;
     }
     .designed-footer{
-        margin-top: 13rem;
-        margin-left: -40rem;
+        margin-top: 12rem;
+        margin-left: -10rem;
     }
     
     .bamboo2{
