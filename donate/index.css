@@ -461,8 +461,7 @@ footer{
     width: 100rem;
     height: 21.875rem;
     display: flex;
-    
-margin-left: 220px;
+
 }
 .footer-container>div{
     width: 21.875rem;
@@ -627,6 +626,14 @@ border-radius: 5px;
 
 
 }
+.social{
+    padding-left: 220px;
+}
+.news{
+    
+    margin-left: 200px;
+}
+.menu{margin-left: 100px;}
 .donate-line button a{
     font-family: 'Roboto';
     font-style: normal;
@@ -689,7 +696,7 @@ color: #ffffff;
 @media(max-width: 1000px){
 .topnav{display: none;}
     html{width: 100%;
-    height: 140.375rem;}
+}
     body{width:100%;
     height: 140.375rem;}
 .navigation{
@@ -711,17 +718,21 @@ color: #ffffff;
  .navigation li{
   margin-left: 0px;
  }
- .navigation ul, .navigation div {
+ .navigation ul{
      flex: 100%;
      font-size: 16px;
  }
- .navigation ul{
-    width: 900px;
+ .navigation div {
+    font-size: 16px;
+    width: 700px;
+    padding-left: 30px;
     
  }
- .designed{
-    margin-left: 140px;
+ .navigation ul{
+    width: 300px;
+    
  }
+.footer-container{margin-right: 220px;}
  .navigation ul li a{
      font-size: 100%;
  }
@@ -841,7 +852,7 @@ border-radius: 0px;
  }
 
  .news{
-    margin-left: -9rem;
+    margin-left: 0rem;
     width: 100%;
     
  }
@@ -850,12 +861,12 @@ border-radius: 0px;
  }
  .menu{width: 500px;}
  .bamboo2{
-   left: 47.02px;
+   left: 57.02px;
    top: 1890px;
  }
  .footer-container{
     width: 94%;
-    margin-left: -20px;
+    margin-left: -210px;
  }
  .designed-footer{
     margin-left: 9rem;
@@ -1076,6 +1087,7 @@ height: 17.625rem;}
 .footer-container{
     height: 17.625rem;
 }
+.news{width: 300px;}
 .news div:first-child{display: none;
 margin-top: -40rem;}
 
@@ -1088,11 +1100,11 @@ margin-top: -40rem;}
     width: 90%;
     height: 30px;
     margin-top: -1.2rem;
-    margin-left: -22em;
+    margin-left: -8em;
 }
 .designed-footer{
     margin-top: 13rem;
-    margin-left: 9rem;
+    margin-left: 0rem;
 }
 
 .bamboo2{
@@ -1288,22 +1300,24 @@ border-radius: 0px;
     .social-links ul li a{
         color: black;
     }
+    .donate-line{margin-left: -7.3rem;}
     .social-links{
         display: flex;
         flex-direction: row;
         margin-top: -10.2rem;
-        margin-left: 0rem;
+        margin-left: -7rem;
         width: 7rem;
     }
     .menu{
-        width: 35%;
+        width: 200px;
         height: 30px;
         margin-top: -1.2rem;
-        margin-left: -22em;
+        margin-left: -16rem;
     }
+    .menu ul{width: 280px;}
     .designed-footer{
         margin-top: 12rem;
-        margin-left: -10rem;
+        margin-left: -22rem;
     }
     
     .bamboo2{
