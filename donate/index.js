@@ -1,17 +1,46 @@
+let inpt=document.querySelector('.input-field')
 
+inpt.innerHTML=100
 let radios=document.querySelectorAll('.inside-scale div')
 console.log(radios)
 let radArr=[...radios]
 let isClicked=false
+
 radArr.forEach(rad=>rad.addEventListener('click',(e)=>{
-
-
+   [...radArr].map(rad=>rad.classList.remove('clicked'))
+   e.target.classList.add('clicked')
+    radArr.forEach(rad=>{
+        rad.classList.remove('click-inside')
+    })
+    if(e.target.classList.contains('dflt')){
+        console.log('hi')
+    }
+    else{
+        dflt.classList.remove('dflt')
+    }
+console.log(e.target.getAttribute('data-value'))
+inpt.value=e.target.getAttribute('data-value')
 isClicked=!isClicked
 
 isClicked? e.target.classList.add('click-inside'):e.target.classList.remove('click-inside')
 
 
 }))
+let isMatches=false
+let dflt=document.querySelector('.dflt')
+inpt.addEventListener('keyup',(e)=>{
+ 
+   radArr.forEach(rad=>{
+    if(rad.getAttribute('data-value')==e.target.value){
+       rad.classList.add('click-inside')
+       rad.classList.add('clicked')
+    }
+    else{
+        rad.classList.remove('click-inside')
+        rad.classList.remove('clicked')
+    }
+   })
+})
 let news=document.querySelector('#news')
 console.log(news)
 news.addEventListener('keyup',(e)=>{
@@ -38,6 +67,7 @@ else if(!isSubmitted){
         btn.style.boxShadow='0 0 10px #db1d26'
 }
 })
+
 
 //burger menu
 

@@ -280,6 +280,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     /* /////////////// */
     .animals{
+
         width: 1600px;
         height: 1100px;
         display: grid;
@@ -287,6 +288,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     }
     .animals-container{
+        position: relative;
         height: 822px;
 width: 1158px;
 margin-bottom: 15px;
@@ -295,60 +297,29 @@ display: flex;
 flex-direction: column;
 gap:10px;
     }
-    .first-part, .second-part{
-        width: 100%;
-        height: 400px;
-      
-        display: flex;
-        justify-content: space-between;
-    }
-    .first-part>div, .second-part > div{
-        transition: all 0.3s;
-        width: 350px;
-    
-    
-    }
-    .first-part>div:hover, .second-part > div:hover{
-        transform: rotate(45deg);
-        cursor: pointer;
-    }
-    .first-part div:last-child{
-        background-image: url('/online-zoo/docs/foto-card3.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .first-part div:first-child{
-        background-image: url('/online-zoo/docs/foto-card1.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .first-part div:nth-child(2){
-        background-image: url('/online-zoo/docs/foto-card2.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .first-part div:last-child{
-        background-image: url('/online-zoo/docs/foto-card3.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+    .myAnimals{
+    margin-left: 30px;}
+    .myAnimals img {
+        height: 426px;
+width: 366px;
+
+border-radius: 5px;
+
     }
 
-    /* ////////////// */
-    .second-part div:first-child{
-        background-image: url('/online-zoo/docs/foto-card5.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+    .myAnimals img:hover{
+        cursor: pointer;
+        background-color: #707375;
+      
     }
-    .second-part div:nth-child(2){
-        background-image: url('/online-zoo/docs/foto-card6.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+    .anime{
+        animation-duration: 0.4s;
     }
-    .second-part div:last-child{
-        background-image: url('/online-zoo/docs/foto-card7.png');
-        background-size: contain;
-        background-repeat: no-repeat;
+    @keyframes anime {
+        from {background-color: black;}
+        to{background-color: #d47e7e;}
     }
+    
  .animals button{
     width: 298px;
 height: 54px;
@@ -389,11 +360,12 @@ top: 2300px;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    transition: all 0.3s;
+   
 }
 
 .left-button:hover,.right-button:hover{
-transform: rotate(85deg);
+cursor: pointer;
+background: green;
 }
 .left-button i,.right-button i{
     color: #ffffff;
@@ -630,7 +602,7 @@ height: 25.08px;
 
 
 }
-.test-container h2 {
+.testimonials h2 {
  
     height: 47px;
     font-family: 'Roboto';
@@ -655,7 +627,7 @@ height: 25.08px;
 .testimonial .test-box:last-child{
     background-image: url('/online-zoo/docs/testimonials (3).png');
 }
-.test-container button{
+.testimonials button{
     transition: all 0.3s;
     width: 298px;
     height: 54px;
@@ -671,7 +643,8 @@ border: none;
 border-radius: 5px;
 color: #FFFFFF;
 }
-.test-container button:hover{
+.testimonia640{display: none;}
+.testimonials button:hover{
 cursor: pointer;
 background-color: orangered;
 }
@@ -684,25 +657,99 @@ left: 1300px;
 transform: matrix(-0.86, -0.5, -0.5, 0.86, 0, 0)rotateY(180deg) rotate(-30deg);
 }
 .slide{
-    width: 599px;
+   
+    width: 850px;
     height: 8px;
     background: #f5f7f6;
     border-radius: 5px;
     transform: translate(180px,-145px);
+    margin-left: -300px;
+   
 
 }
-.inside-slide{
-    height: 6px;
-    width: 115px;
-    background-color: #FE9013;
-    border-radius: 5px;
-    transition: all 0.9s;
-}
-.inside-slide:hover{
+
+
+/*.inside-slide:hover{
     transform: translate(500px);
     cursor: pointer;
-}
+}*/
+.slideshow-container {
+    max-width: 1600px;
+    position: relative;
+    margin: auto;
+    display: flex;
+  }
+  .mySlides img{
+    height: 391px;
+width: 268px;
+margin: 20px 20px;
 
+
+  }
+  
+  .mySlides { 
+   display: none;
+  margin-left: 80px;
+    
+  }
+  
+  
+   
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 172px;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+ 
+  .prev:hover, .next:hover {
+    background-color: rgba(236, 191, 108, 0.8);
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+   
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .dot {
+    
+    cursor: pointer;
+    height: 6px;
+    width: 100px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active{
+
+    height: 6px;
+    width: 100px;
+    background-color: #FE9013;
+    border-radius: 5px;
+  }
+.darkened-area{display: none;}
+.darkened-area2{display: none;}
+.darkened-area3{display: none;}
 
 
 /* /////////////////////////// */
@@ -1096,12 +1143,14 @@ width: 295px;
         margin-top: 30px;
      }
       .left-button{
+        position: absolute;
        left: 355px; 
-       top: 1622px;
+       top: 1632px;
       }
       .right-button{
-        top: 1622px;
-        right: 355px;
+        position: absolute;
+        top: 2032px;
+        right: 100px;
       }
       .animals button{
         margin-top: -190px;
@@ -1118,6 +1167,19 @@ width: 295px;
         left: 759px;
         width: 241px;
         height: 180px;
+      }
+      
+      .myAnimals img:nth-child(4), .myAnimals img:nth-child(5), .myAnimals img:nth-child(6){
+        
+      }
+      .myAnimals img{
+        height: 354px;
+width: 293px;
+border-radius: 5px;
+
+      }
+      .right-button:hover{
+        background: green;
       }
       .feed-section{
         width: 100%;
@@ -1158,12 +1220,15 @@ width: 295px;
         gap: 1.4rem;
         
        }
+       .mySlides{margin-left: 110px;}
+       .mySlides img:last-child{display: none;}
        .test-container{
         margin-top: 40px;
        }
        .testimonial div:last-child{
         display: none;
        }
+       .slide{margin-top: 30px; }
        .test-container button{
         margin-top: -270px;
         margin-left: -45px;
@@ -1183,6 +1248,7 @@ width: 295px;
        .social{
         width: 100%;
         margin-left: 10px;
+    
        }
 
        .news{
@@ -1389,6 +1455,23 @@ body {
     margin-top: -270px;
     margin-left: 70px;
   }
+
+  .animals-container{display: flex;
+flex-direction:column ;}
+.myAnimals img{
+    height: 332px;
+width: 285.23944091796875px;
+border-radius: 5px;
+
+}
+.myAnimals img:nth-child(5), .myAnimals img:nth-child(6){display: none;}
+.myAnimals img:first-child, .myAnimals img:nth-child(3){
+    margin-left: -65px;
+}
+.myAnimals img:nth-child(3), .myAnimals img:nth-child(4){
+    margin-top: 100px;
+}
+.myAnimals{width: 640px;}
   .feed-section{
     width: 640px;
     height: 781px;
@@ -1494,6 +1577,7 @@ border-radius: 0px;
     height: 668px;
 
    }
+   .testimonia640 img{margin-top: 10px;}
    .testimonial{
     flex-direction: column;
     width: 30%;
@@ -1503,6 +1587,86 @@ border-radius: 0px;
    .test-container{
     margin-top: 10px;
    }
+   .darkened-area{
+    top: 2630px;
+    position: absolute;
+    width: 640px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.darkened-area2{
+    top: 2630px;
+    position: absolute;
+    width: 640px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.darkened-area3{
+    top: 2630px;
+    position: absolute;
+    width: 640px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.popUp-Container i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container3 i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container2 i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container{
+   
+    background-image: url('/online-zoo/docs/testimonials (17).png');
+    width: 272px;
+    height: 381px;
+    margin: auto;
+    top: -200px;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+    box-shadow:2px 2px 6px  #8b4e11;
+   
+}
+.popUp-Container2{
+   
+    background-image: url('/online-zoo/docs/testimonials (15).png');
+   width: 272px;
+   box-shadow:2px 2px 6px  #8b4e11;
+    height: 381px;
+    margin: auto;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+
+}
+.popUp-Container3{
+    background-image: url('/online-zoo/docs/testimonials (14).png');
+    width: 272px;
+    height: 381px;
+    margin: auto;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+    box-shadow:2px 2px 6px  #8b4e11;
+}
    .testimonial div:last-child{
     display: none;
    }
@@ -1511,20 +1675,23 @@ border-radius: 0px;
     margin: 0px 20px;
 
    }
-   .testimonial.test-box{
+   footer{margin-top: 165px;}
+   .testimonia640{display: block;
+margin-top: -500px;
+margin-left: 20px;}
+   .mySlides img{
     display: none;
    }
-   .testimonial .test-box:first-child{
+   .mySlides img:first-child{
     background-image: url('/online-zoo/docs/testimonials (5).png');
     width: 600px;
-    height: 109px;
-    
-    
+    height: 109px; 
   }
+  .next, .prev{display: none;}
   body{
     height: 3581px;
   }
-  .testimonial .test-box:nth-child(2){
+  .mySlides img:nth-child(2){
       background-image: url('/online-zoo/docs/testimonials (6).png');
       width: 600px;
       height: 109px;
@@ -1754,6 +1921,18 @@ margin-top: 25px;
     margin-top: -210px;
    
 }
+.myAnimals{display: flex;
+flex-direction:column;
+width: 300px;
+}
+.myAnimals img:nth-child(2){margin-top: 300px;
+margin-left: -40px;}
+.myAnimals img:nth-child(3){
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+.myAnimals img:nth-child(1), .myAnimals img:nth-child(4){display: none;}
 .first-part div:first-child{
     width: 285px;
     height: 332px;
@@ -1806,7 +1985,7 @@ margin-top: 25px;
 }
 .animals button {
     margin-top: 860px;
-    margin-left: -270px;
+    margin-left: 20px;
 }
 .strel{display: none;}
 .strel2{display: block;}
@@ -1881,6 +2060,86 @@ margin-top: 25px;
   border-radius: 25px;
   }
 
+  .darkened-area{
+    top: 3360px;
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.darkened-area2{
+    top: 3360px;
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.darkened-area3{
+    top: 3360px;
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(25, 23, 23,0.6);
+}
+.popUp-Container i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container3 i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container2 i{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.popUp-Container{
+   
+    background-image: url('/online-zoo/docs/testimonials (17).png');
+    margin: auto;
+    top: -200px;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+    box-shadow:2px 2px 6px  #8b4e11;
+   
+}
+.popUp-Container2{
+   
+    background-image: url('/online-zoo/docs/testimonials (15).png');
+   width: 272px;
+   box-shadow:2px 2px 6px  #8b4e11;
+    height: 381px;
+    margin: auto;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+
+}
+.popUp-Container3{
+    background-image: url('/online-zoo/docs/testimonials (14).png');
+    width: 272px;
+    height: 381px;
+    margin: auto;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+    box-shadow:2px 2px 6px  #8b4e11;
+}
+
+
 .testimonials{
     width: 100%;
     
@@ -1891,9 +2150,9 @@ margin-top: 25px;
     margin-top: -140px;
 
 }
-.test-container h2{
+.testimonials h2{
     font-size: 24px;
-    margin-top: -10px;
+    margin-top: -50px;
 }
 .testimonial.test-box{
     width: 299px;
@@ -1906,32 +2165,33 @@ margin-top: 25px;
 .testimonial.test-box{
     display: none;
    }
-   .testimonial .test-box:first-child{
+   .testimonia640 .review1{
     background-image: url('/online-zoo/docs/testimonials (8).png');
     width: 299px;
     height: 109px;
-    margin-left: 0px;
-    
+    margin-left: -10px;
+    margin-top: -90px;
     
   }
-  .testimonial .test-box:nth-child(2){
+  .testimonia640{margin-top: -500px; height: 500px;}
+  .testimonia640 img:nth-child(2){
       background-image: url('/online-zoo/docs/testimonials (9).png');
       width: 299px;
       height: 109px;
-      margin-left: 0px;
-      margin-top: -10px;
+      margin-left: -10px;
+      margin-top: 10px;
     
   }
-  .testimonial .test-box:nth-child(3){
+  .testimonia640 img:nth-child(3){
       background-image: url('/online-zoo/docs/testimonials (10).png');
       width: 299px;
       height: 109px;
-      margin-left: 0px;
-      margin-top: -10px;
+      margin-left: -10px;
+      margin-top: 10px;
   }
   .testimonials button{
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 0px;
+    margin-top: -150px;
   }
   .palm3{display: none;}
   .leav{

@@ -58,14 +58,14 @@
         <p>Amount</p>
         <div class="scalebox">
             <div class="inside-scale"> 
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
-            <div class="sevendot"></div>
+            <div class="sevendot" data-value="5000"></div>
+            <div class="sevendot"data-value="2000"></div>
+            <div class="sevendot dflt"data-value="1000"></div>
+            <div class="sevendot"data-value="500"></div>
+            <div class="sevendot"data-value="250"></div>
+            <div class="sevendot"data-value="100"></div>
+            <div class="sevendot"data-value="50"></div>
+            <div class="sevendot"data-value="25"></div>
         </div>
         </div>
         <img class="price5" src="/online-zoo/donate/assets/price (5).png" alt="">
@@ -79,9 +79,10 @@
             <div class="count">$50</div>
             <div class="count">$25</div>
         </div>
-    <div class="input-icon"><i class="fa-solid fa-dollar-sign iconn"></i><input class="input-field" type="number" placeholder="  Another Amount" maxlength="4" min="1" max="4"></div>
+    <div class="input-icon"><i class="fa-solid fa-dollar-sign iconn"></i><input class="input-field" type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==4) return false;" placeholder=" Another Amount" maxlength="4" min="1" max="4" value="100"></div>
     <span class="inputradio"><input type="radio" placeholder="month" class="radio" name="amount" required><label for="monthly" class="radiolabel">Monthly</label><br>
-        <input type="radio" class="radio" name="amount" required checked><label for="once" class="radiolabel">Once</label></span>   
+        <input type="radio" class="radio" name="amount" required checked><label for="once" class="radiolabel">Once</label></span> 
+       
         <button class="feedbutton">FEED A FRIEND NOW</button> 
         <div class="sharetext"><p>Share with your friends on social networks </p></div>
     </div> 
