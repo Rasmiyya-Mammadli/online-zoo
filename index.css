@@ -667,33 +667,6 @@ transform: matrix(-0.86, -0.5, -0.5, 0.86, 0, 0)rotateY(180deg) rotate(-30deg);
     margin-left: -300px;
 }
 
-input[type="range"] {
-    display: block;
-    -webkit-appearance: none;
-    background-color: #bdc3c7;
-    width: 300px;
-    height: 5px;
-    border-radius: 5px;
-    margin: 0 auto;
-    outline: 0;
-  }
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    background-color: #e74c3c;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 2px solid white;
-    cursor: pointer;
-    transition: .3s ease-in-out;
-  }​
-    input[type="range"]::-webkit-slider-thumb:hover {
-      background-color: white;
-      border: 2px solid #e74c3c;
-    }
-    input[type="range"]::-webkit-slider-thumb:active {
-      transform: scale(1.6);
-    }
 
 
 /*.inside-slide:hover{
@@ -1254,12 +1227,12 @@ border-radius: 5px;
        .testimonial div:last-child{
         display: none;
        }
-       .slide{margin-top: 30px; }
+       .slide{margin-top: 90px; }
        .test-container button{
         margin-top: -270px;
         margin-left: -45px;
        }
-       .text-box{
+       .mySlides img{
         width: 293px;
         height: 391px;
        }
@@ -2199,7 +2172,7 @@ margin-left: -40px;}
     margin-top: -90px;
     
   }
-  .testimonia640{margin-top: -500px; height: 500px;}
+  .testimonia640{margin-top: -530px; height: 600px;}
   .testimonia640 img:nth-child(2){
       background-image: url('/online-zoo/docs/testimonials (9).png');
       width: 299px;
@@ -2217,12 +2190,13 @@ margin-left: -40px;}
   }
   .testimonials button{
     margin-left: 0px;
-    margin-top: -150px;
+    margin-top: -60px;
   }
   .palm3{display: none;}
   .leav{
+
     left: 220px;
-    top: 3830px;
+    top: 3899px;
   }
   footer{
     margin-top: -100px;
@@ -2250,7 +2224,7 @@ margin-left: -40px;}
     display: flex;
     flex-direction: row;
 margin-left: -520px;
-margin-top: 660px;
+margin-top: 740px;
   }
   .social-links ul{
     width: 40px;

@@ -46,28 +46,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-/*pets caruose*/
-/*
-let slideNumber=1;
-showSlidesNumber(slideNumber);
-
-function plusSlidesNumber(n) {
-  showSlidesNumber(slideNumber += n);
- 
-}
-function showSlidesNumber(n) {
-  
-  let i;
-  
-if ( n > slide.length) {slideNumber = 1}
-if (n < slide.length) {slideNumber = slide.length}
-for (i = 0; i < slide.length; i++) {
-  slide[i].style.display = "none";
-}
- slide[slideNumber-1].style.display = "block";
-}*/
-
-/*       jjjjjjjjjjjjjj*/
 
 
 //popup for 640 and 320px//
