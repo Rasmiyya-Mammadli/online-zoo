@@ -482,7 +482,7 @@ footer{
     height: 21.875rem;
     display: flex;
     
-margin-left: 220px;
+
 }
 .footer-container>div{
     width: 21.875rem;
@@ -838,7 +838,7 @@ border-radius: 0px;
     margin-left: 30px;
 }
 .countbox div:nth-child(3){
-    color: orange;
+    
     margin-top: 0px;
 }
 .countbox div:first-child{
@@ -873,28 +873,30 @@ border-radius: 0px;
  }
  .social{
     width: 50%;
+    margin-left: -200px;
     
  }
 
  .news{
-    margin-left: -9rem;
-    width: 100%;
+    margin-left: -3rem;
+    width: 40%;
     
  }
  .news div:first-child{
    margin-left: 2rem;
  }
- .menu{width: 500px;}
+
  .bamboo2{
    left: 47.02px;
    top: 1890px;
  }
  .footer-container{
-    width: 94%;
-    margin-left: -20px;
+    width: 100%;
+    margin-left: 0px;
+   
  }
  .designed-footer{
-    margin-left: 9rem;
+   
     width: 300px;
  }
 }
@@ -1069,7 +1071,7 @@ display: block;
     width: 39.9rem;
      
 }
-.countbox div:nth-child(6){color: orange;}
+
 .countbox div:nth-child(3){display: none;}
 .price3{display: none;}
 .price4{display: block;}
@@ -1125,14 +1127,14 @@ margin-top: -40rem;}
     width: 7rem;
 }
 .menu{
-    width: 90%;
+    width: 60%;
     height: 30px;
     margin-top: -1.2rem;
-    margin-left: -22em;
+    margin-left: -9em;
 }
 .designed-footer{
     margin-top: 13rem;
-    margin-left: 9rem;
+    margin-left: 3rem;
 }
 
 .bamboo2{
@@ -1336,16 +1338,16 @@ border-radius: 0px;
         width: 7rem;
     }
     .menu{
-        width: 35%;
+        width: 25%;
         height: 30px;
         margin-top: -1.2rem;
-        margin-left: -22em;
+        margin-left: -13em;
     }
     .designed-footer{
         margin-top: 12rem;
-        margin-left: -10rem;
+        margin-left: -14rem;
     }
-    
+
     .bamboo2{
         top: 1380px;
         left: 177px

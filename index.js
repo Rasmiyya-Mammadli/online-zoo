@@ -24,7 +24,7 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
+let dots = document.getElementsByClassName("dot");
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -113,7 +113,7 @@ review3.addEventListener('click',()=>{
 })
 
 
-//jhkgkkkkk////
+//pet carouse////
 var eftbtn=document.querySelector('.left-button')
 var rightbtn=document.querySelector('.right-button')
 var imgs=[...document.querySelectorAll('.myAnimals img')]
@@ -127,17 +127,20 @@ function shuffleArray(array) {
 }
 
 eftbtn.addEventListener('click',()=>{
+ 
   document.querySelector('.myAnimals').innerHTML=''
   shuffleArray(srcs)
-  srcs.forEach(sr=> document.querySelector('.myAnimals').innerHTML+=`<img src=${sr} alt="">`)
-console.log(srcs)
+ 
+  srcs.forEach(sr=> document.querySelector('.myAnimals').innerHTML+=`<img class='fade' src=${sr} alt="">`)
 
+
+//document.querySelector('.myAnimals').style.opacity='1'
 })
 
 rightbtn.addEventListener('click',()=>{
   document.querySelector('.myAnimals').innerHTML=''
   shuffleArray(srcs)
-  srcs.forEach(sr=> document.querySelector('.myAnimals').innerHTML+=`<img src=${sr} alt="">`)
+  srcs.forEach(sr=> document.querySelector('.myAnimals').innerHTML+=`<img class='fade' src=${sr} alt="">`)
 console.log(srcs)
 
 })
