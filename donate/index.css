@@ -303,7 +303,7 @@ transform: translate(-0.688rem,-0.75rem);
 transform: translate(-0.313rem,-2.5rem);
 }
 
-.dflt:nth-child(3)::before{
+.dflt:nth-child(6)::before{
     content: '';
     transition: all 0.3s;
     width: 2rem;
@@ -312,7 +312,7 @@ transform: translate(-0.313rem,-2.5rem);
     border: 1px solid rgb(219, 92, 18);border-radius: 50%;
 transform: translate(-0.688rem,-0.75rem);
 }
-.dflt:nth-child(3)::after{
+.dflt:nth-child(6)::after{
     content: '';
     width: 1.25rem;
     height: 1.25rem;
